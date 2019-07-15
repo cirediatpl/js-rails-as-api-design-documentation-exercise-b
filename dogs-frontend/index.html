@@ -14,11 +14,11 @@
     <form>
         <label for="search">Search: </label>
         <input name="search" type="text">
-        <button id="filter">Search</button>
+        <button id="filter" type="submit">Search</button>
         <div>
             Order By:
             <input type="radio" id="name" name="order" value="name">
-            <label for="name">Email</label>
+            <label for="name">Name</label>
 
             <input type="radio" id="breed" name="order" value="breed">
             <label for="breed">Breed</label>
@@ -31,6 +31,7 @@
         </div>
     </form>
     <ul id="dogs-list">
+        <main></main>
         <li>
             <h3 class="name">Sample Dog</h3>
             <div class="info">
@@ -49,6 +50,7 @@
             </div>
         </li>
     </ul>
+    <!-- <script src="./index.js"></script> -->
 </body>
 
 </html>
